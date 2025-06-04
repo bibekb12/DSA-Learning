@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using DSA_Learning;
+using System;
+
+namespace DSA
+{
+    public class Program
+    {
+        static void Main(String[] args)
+        {
+           Example1 ex = new Example1();
+            ex.FindMinimum();
+        
+            Console.ReadLine();
+        }
+    }
+}
